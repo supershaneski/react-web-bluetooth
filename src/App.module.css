@@ -1,0 +1,52 @@
+.container {
+  background-color: #f4f8fb;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #3e76ba;
+  position: relative;
+  height: 50px;
+}
+
+.title {
+  position: relative;
+  margin: 0px;
+  padding: 15px 15px;
+  color: #224167;
+}
+.toplink {
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  height: calc(100vh - 60px);
+  display: grid;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.button {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0px;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: 1px 1px 3px rgba(120,120,120,0.5);
+}
+.button:active {
+  transform: translate(0px, 1px);
+}
+
+.link {
+  display: block;
+  color: #224167;
+}

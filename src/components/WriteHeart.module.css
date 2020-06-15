@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    height: calc(100vh - 50px);
+    display: grid;
+    grid-template-rows: 50px auto;
+}
+
+.control {
+    position: relative;
+}
+.button {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    background-color: white;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: block;
+    border: 0px;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 1px 1px 3px rgba(120,120,120,0.5);
+    color: #000; /*#224167;*/
+    text-decoration: underline;
+}
+.button:active {
+    transform: translate(0px, 1px);
+}
+
+.status {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.status p {
+    font-size: 0.9em;
+    color: #224167;
+}

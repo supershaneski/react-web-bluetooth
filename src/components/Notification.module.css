@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    height: calc(100vh - 50px);
+    display: grid;
+    grid-template-rows: 100px auto;
+}
+
+.control {
+    position: relative;
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+}
+.button {
+    background-color: white;
+    border: 0px;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 1px 1px 3px rgba(120,120,120,0.5);
+    color: #000; /*#224167;*/
+    text-decoration: underline;
+}
+.button:active {
+    transform: translate(0px, 1px);
+}
+
+.status {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message {
+    font-size: 0.9em;
+    color: #224167;
+}

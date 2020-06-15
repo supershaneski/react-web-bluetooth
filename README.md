@@ -10,6 +10,7 @@ This is a sample application using the experimental (at this point) [Web Bluetoo
 
 Currently, it does not do much other than display the detected devices in a list. This is a work in progress. I might add more functions later on.
 
+
 ## React App Installation
 Clone repository and run
 
